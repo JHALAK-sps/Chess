@@ -1,0 +1,56 @@
+---
+title: "Chess Tournament"
+subtitle: "DATA 607 Project 1"
+author: "Jhalak Das"
+date: "September 18, 2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+**Project Description**
+```
+In this project, I was given text a file about a chess tournament result. I have uploaded the file to my github repository and created an .Rmd file with the following information for all of the players:
+  
+Player’s Name, Player’s State, Total Number of Points, Player’s Pre-Rating, and Average Pre Chess Rating of Opponents
+
+The outcome of the code is in the following format:
+Gary Hua, ON, 6.0, 1794, 1605
+
+
+Here, 1605 was calculated by using the pre-tournament opponents’ ratings of 1436, 1563, 1600, 1610, 1649, 1663, 1716, and dividing by the total number of games played.
+
+
+All of my codes are in an R markdown file (and published to rpubs.com); with my data accessible for the person running the script.
+
+```
+
+#### Calling Necessary Libraries and Importing Data
+
+
+
+
+
+
+
+
+
+
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
